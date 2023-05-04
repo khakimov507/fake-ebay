@@ -1,0 +1,87 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+
+.menu__navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list{
+    display: flex;
+    gap: 0 40px;
+}
+
+.menu__item{
+    display: flex;
+    gap: 0 18px;
+}
+
+.menu__list__secondary{
+    display: flex;
+    gap: 0 40px;
+}
+
+.menu__item__secondary{
+    display: flex;
+    gap: 0 28px;
+}
+
+.menu__options{
+    display: flex;
+    align-items: center;
+    p{
+        margin-left: 35px;
+    }
+}
+
+.menu__input{
+    width: 800px;
+    height: 40px;
+    border: 2px solid #41413F;
+    text-indent: 20px;
+    // margin-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.menu__link{
+    display: flex;
+    gap: 0 14px;
+    color: #0654BA;
+}
+
+.menu__icons{
+    svg{
+        font-size: 20px;
+        color: #000000;
+    }
+}
+
+.menu__button{
+    width: 160px;
+    height: 40px;
+    background-color:#3665F3;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form__svg{
+    border: 2px solid #3665F3;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    svg{
+        font-size: 20px;
+        margin-left: 22px;
+    }
+}
+
+.watchlist__item{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}

@@ -1,0 +1,25 @@
+.form__input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+
+    input {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        text-indent: 10px;
+    }
+
+    button {
+        width: 160px;
+        height: 40px;
+        background-color: #3665F3;
+        color: #fff;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
