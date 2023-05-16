@@ -4,7 +4,9 @@ import c from "./Auth.module.scss"
 
 const Auth = () => {
   return (
+    <>
     <div className={c.auth}>
+    <div className={c.circle}></div>
       <div className={c.auth__form}>
         <ul className={c.auth__nav}>
           <li>
@@ -17,6 +19,7 @@ const Auth = () => {
         <Outlet />
       </div>
     </div>
+    </>
   )
 }
 

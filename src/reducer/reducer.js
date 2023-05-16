@@ -3,8 +3,6 @@ const initialState = {
 }
 
 
-
-
 const cartReducer = (state = initialState, action) => {
     switch(action.type){
         case "CARTED_PRODUCT":
@@ -15,5 +13,6 @@ const cartReducer = (state = initialState, action) => {
                 return state
     }
 }
+
 
 export default cartReducer;
